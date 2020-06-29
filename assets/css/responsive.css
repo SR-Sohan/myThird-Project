@@ -1,0 +1,689 @@
+
+.slicknav_menu {
+    display:none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+
+    .social_icon_area{
+        display: none;
+    }
+
+    .top_bar{
+        padding: 0;
+        border: none;
+        font-size: 70%;
+		text-align:center;
+		display:inline-block;
+    }
+
+    .login_area a {
+        padding: 0;
+        font-size: 100%;
+    }
+	
+
+	
+	.top_bar:first-child {
+		padding-left: 13%;
+	}
+	
+    .top_bar:nth-child(2){
+        padding-left: 18%;
+    }
+	
+    .top_bar:last-child{
+		padding-left:7%;
+    }
+	
+	
+	
+	.reg{
+		padding-left: 3%;
+	}
+
+    .header_top{
+        margin-bottom: 0px;
+    }
+
+    .menu_area{
+        display: none;
+    }
+
+    .site_logo img{
+        width: 44%;
+        margin: 5% 0%;
+    }
+
+    #_header_area {
+        margin-bottom: 0px;
+    }
+
+    .slicknav_menu {
+        display: block;
+    }
+	
+	.slicknav_menu {
+        display: block;
+        position: absolute;
+        top: 9%;
+        right: 0;
+        z-index: 999;
+    }
+
+    .slider_area .single_slide h2{
+        font-size: 20px;
+    }
+
+    .slider_area .single_slide h4 {
+        font-size: 16px;
+    }
+
+    .single_slide {
+        padding-bottom: 0px;
+    }
+
+    .slider_overlay {
+        padding: 12% 0;
+    }
+
+    .search_area h4 {
+        font-size: 17px;
+        display: inline-block;
+    }
+
+    .search_area p {
+        display: inline-block;
+        font-size: 12px;
+        padding: 7px 18px;
+        font-weight: bold;
+    }
+
+    .search_area input[type="submit"]{
+        margin: 0px 0px 25px 77px;
+    }
+
+    .search_area {
+		margin-bottom: 5%;
+		padding-top: 7%;
+	}
+
+    .offer_top p {
+        font-size: 14px;
+    }
+
+    .offer_top {
+        margin-bottom: 20px;
+    }
+
+
+    .first_one {
+        margin: 0;
+    }
+
+
+    .single_offers {
+        width: 50%;
+        margin: 45px auto;
+        border: 2px solid #fff;
+    }
+
+    .single_offers:hover {
+        border: 2px solid #1dd2af;
+        border-radius: 2px;
+    }
+
+    .single_exmpl a {
+        text-align: center;
+        display: block;
+    }
+
+    .holiday_area {
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+    .clint_area .clint_text h3 {
+        font-size: 20px;
+    }
+
+    .clint_area .clint_text p {
+        font-size: 15px;
+    }
+
+    .clint_area .clint_text {
+         margin-bottom: 0;
+    }
+
+    .single_clint{
+        width: 78%;
+        display: block;
+        opacity: 1;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .single_clint:hover{
+        border: 1px solid #dedede;
+    }
+
+    .single_clint a {
+        font-size: 14px;
+    }
+
+    .single_clint p {
+        font-size: 10px;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+
+    .all_widgets {
+        margin: 30px 0 -28px 0;
+        text-align: center;
+    }
+
+    .move_up {
+        display: none;
+    }
+
+    .owl-prev span {
+        font-size: 45px;
+        color: #9aa2a9;
+        position: absolute;
+        left: 113px;
+        top: 137px;
+        padding: 0px 0px;
+        background: transparent;
+        opacity: .8;
+    }
+
+    .owl-next span {
+        font-size: 45px;
+        color: #9aa2a9;
+        position: absolute;
+        right: 151px;
+        top: 137px;
+        padding: 0;
+        background: transparent;
+        opacity: .8;
+    }
+
+
+    
+	
+	.soial_address {
+		text-align: center;
+		display: inline-block;
+		padding-top: 5%;
+	}
+	
+	
+	.news {
+		padding-top: 5%;
+	}
+	
+	.adress{
+		padding-top:5%;
+	}
+	
+	#myBtn{
+		padding:2%;
+	}
+
+
+
+
+
+
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 767px){
+	
+	.social_icon_area{
+        display: none;
+    }
+
+    .top_bar{
+        padding: 0;
+        border: none;
+        font-size: 70%;
+		text-align:center;
+		display:inline-block;
+    }
+	
+	.login_area {
+		margin: 10px 37px;
+	}
+
+    .login_area a {
+        padding: 0;
+        font-size: 124%;
+    }
+	
+	.top_bar:first-child {
+		padding-left: 0;
+	}
+	
+    .top_bar:nth-child(2){
+        padding-left: 3%;
+    }
+	
+    .top_bar:last-child{
+		padding-left:3%;
+    }
+	
+	.reg{
+		padding-left: 3%;
+	}
+	.reg span{
+		font-size: 124%;
+	}
+
+    .header_top{
+        margin-bottom: 0px;
+    }
+
+    .menu_area{
+        display: none;
+    }
+
+    .site_logo img {
+		width: 25%;
+		margin: 3% 0%;
+	}
+
+    #_header_area {
+        margin-bottom: 0px;
+    }
+
+    .slicknav_menu {
+        display: block;
+    }
+	
+	.slicknav_menu {
+        display: block;
+        position: absolute;
+        top: 9%;
+        right: 0;
+        z-index: 999;
+    }
+
+    .slider_area .single_slide h2{
+        font-size: 28px;
+		font-weight: bold;
+    }
+
+    .slider_area .single_slide h4 {
+        font-size: 18px;
+		font-weight: bold;
+    }
+	
+	.slider_overlay {
+        padding: 14% 0;
+    }
+
+    .owl-nav {
+		display: none;
+	}
+
+    .search_area {
+		margin-bottom: 3%;
+		padding-top: 2%;
+		text-align:center;
+	}
+	
+    .search_area h4 {
+        font-size: 19px;
+        display: inline-block;
+    }
+
+    .search_area p {
+        display: inline-block;
+        font-size: 15px;
+        padding: 5px 10px;
+        font-weight: bold;
+    }
+	
+	.holiday_text {
+		text-align: center;
+	}
+
+    .search_area input[type="submit"] {
+		margin: 18px 0px 17px 72px;
+		font-weight: bold;
+		padding: 12px 41px;
+		border-radius: 6px;
+	}
+	
+    .search_area input[type="date"]{
+        padding:6px 13px;
+    }
+
+    .offer_top {
+        margin-bottom: 0;
+    }
+	
+	.offer_top h4 {
+		color: #2c3e50;
+	}
+
+    .offer_top p {
+        font-size: 17px;
+    }
+	
+	.single_offers {
+		width: 45%;
+		margin: 26px auto;
+		border: 2px solid #fff;
+		text-align: center;
+	}
+	
+	.text_area {
+		margin-top: 35px;
+	}
+	
+	.single_exmpl a {
+        display:block;
+    }
+	
+	.single_exmpl.sixth {
+		margin-bottom: 10%;
+	}
+
+    
+
+    .single_offers:hover {
+        border: 2px solid #1dd2af;
+        border-radius: 2px;
+    }
+	
+	
+
+    
+
+    .holiday_area {
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+    .clint_area .clint_text h3 {
+        font-size: 20px;
+    }
+
+    .clint_area .clint_text p {
+        font-size: 17px;
+    }
+
+    .clint_area .clint_text {
+		margin-bottom: 2%;
+    }
+
+    .single_clint{
+        width: 99%;
+        display: block;
+        opacity: 0.5;
+        font-weight: bold;
+        margin-bottom: 10%;
+    }
+
+    .single_clint:hover{
+        border: 1px solid #dedede;
+    }
+
+    
+    .single_clint a , p:last-child{
+        text-align:center;
+    }
+	
+	.news {
+		padding-top: 5%;
+	}
+	
+	.news a img {
+		width: 10%;
+		height: 10%;
+		margin-bottom: 3%;
+	}
+	
+	.adress{
+		padding-top:5%;
+	}
+
+    
+
+    .all_widgets {
+        margin: 30px 0 -28px 0;
+        text-align: center;
+    }
+
+    .move_up {
+        display: none;
+    }
+
+	.soial_address {
+		text-align: center;
+		display: inline-block;
+		padding-top: 5%;
+	}
+	
+	
+	
+	#myBtn{
+		padding:2%;
+	}
+	
+	
+
+
+
+}
+
+
+
+
+
+ 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+	
+	.login_area {
+		margin-top: 2%;
+	}
+	
+	.top_bar{
+        padding: 0;
+        border: none;
+        font-size: 70%;
+		text-align:center;
+		display:inline-block;
+    }
+	
+	.header_top {
+		height: 61px;
+		width: 100%;
+		background: #2c3e50;
+		color: #fff;
+		margin-bottom: 17px;
+	}
+	
+	.login_area a {
+        padding: 16px;
+    }
+	
+	.reg span{
+		font-size:118%;
+	}
+	
+	.top_bar:last-child{
+		margin-top: 1%;
+    }
+	
+	.social_icon_area ul li a i {
+		padding: 11px 13px 0px 19px;
+		font-size: 18px;
+		border:none;
+	}
+	.social_icon_area ul li:last-child a i{
+		padding: 11px 0px 0px 19px;
+	}
+	
+	.site_logo  {
+		width: 25%;
+	}
+	.site_logo img {
+		width: 75%;
+		margin: 0;
+	}
+	
+	.menu_area {
+		margin: -3%;
+	}
+	
+	.menu_area li a {
+		font-size: 12px;
+		padding: 0px 10px;
+	}
+	
+	.menu_area li:last-child img {
+		padding: 2px;
+		margin-top: -4px;
+	}
+	
+	.slider_overlay {
+		padding: 99px 0px;
+	}
+	.slider_area .single_slide h2 {
+		text-transform: uppercase;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	
+	.slider_area .single_slide h4 {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	
+	.owl-prev span {
+		font-size: 46px;
+		position: absolute;
+		left: -39px;
+		top: 103px;
+		padding: 0px 10px;
+	}
+	
+	.owl-next span {
+		font-size: 46px;
+		position: absolute;
+		right: -40px;
+		top: 103px;
+		padding: 0px 10px;
+	}
+	
+	.holiday_text {
+		padding-top: 5%;
+		text-align: center;
+	}
+	
+	.search_area {
+		margin-bottom: 5%;
+	}
+	
+	.search {
+		padding-bottom: 6%;
+		margin-left: 10%;
+	}
+	
+	.search_area h4 {
+		margin: 0 0 2% -4%;
+		font-size: 200%;
+	}
+	
+	.single_offers {
+		width: 37%;
+		margin: 45px auto;
+		border: 4px solid #fff;
+		text-align: center;
+	}
+	.single_offers.first_one{
+		margin: 0 auto;
+	}
+	
+	.single_offers img {
+		width: 100%;
+	}
+	
+	.single_offers:hover {
+        border: 4px solid #1dd2af;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+	
+	.single_exmpl a {
+        text-align: center;
+        display: block;
+    }
+	
+	.text_area p {
+		font-size: 133%;
+	}
+	
+	.single_clint{
+        margin-bottom: 15%px;
+		border:3px solid #fff;
+    }
+	
+	.single_clint:hover{
+        border: 3px solid #1dd2af;
+    }
+	
+	.all_widgets {
+        text-align: center;
+    }
+	
+	.subscribe {
+		margin-bottom: 5%;
+	}
+	
+	.adress {
+		margin-top: 5%;
+	}
+	
+	.soial_address {
+		margin: 4% 0 0 33%;
+	}
+	
+	.move_up {
+        display: none;
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
